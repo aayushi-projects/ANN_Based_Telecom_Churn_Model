@@ -76,3 +76,30 @@ F1 Score
 
 (iii) The precision and recall were also balanced, which means the model didn’t just focus on one class.
 
+## Tools & Technologies Used
+(i) Python
+
+(ii) Pandas, NumPy for data handling.
+
+(iii) Matplotlib, Seaborn for visualization and EDA.
+
+(iv) Scikit-learn for preprocessing and evaluation metrics.
+
+(v) Keras and TensorFlow for building and training the ANN.
+
+## What I Learned
+(i) I learned how to handle categorical data using both label and one-hot encoding.
+
+(ii) Understood how to normalize data before feeding it into a neural network.
+
+(iii) Learned how to build an ANN using Keras Sequential API.
+
+(iv) Understood how to use evaluation metrics like confusion matrix, precision, recall, and F1 score to judge the performance of a model.
+
+(v) The importance of feature scaling and data preprocessing in deep learning projects.
+
+
+
+
+
+
