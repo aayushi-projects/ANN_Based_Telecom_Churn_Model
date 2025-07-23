@@ -17,7 +17,7 @@ The dataset includes the following features:
 (v) The original dataset had over 7000 entries and required some cleaning before it could be used for training.
 
 ## Steps Followed:
-# 1. Data Cleaning and Preprocessing
+### 1. Data Cleaning and Preprocessing
 (i) First I checked the dataset using df.head() and df.info() to understand the structure.
 
 (ii) There were a few rows where TotalCharges was blank. I removed those.
@@ -28,12 +28,12 @@ The dataset includes the following features:
 
 (v) After encoding, I normalized the values using StandardScaler to bring all values into a similar range.
 
-# 2. Splitting the Data
+### 2. Splitting the Data
 (i) I separated the target column Churn from the features.
 
 (ii) Then I used train_test_split to divide the dataset into training and testing sets with 80% for training and 20% for testing.
 
-# 3. Building the ANN Model
+### 3. Building the ANN Model
 (i) I used the Sequential API from Keras.
 
 (ii) The model has:
@@ -54,7 +54,7 @@ Metrics: accuracy
 
 (iv) Then I trained the model using model.fit() for 100 epochs with a batch size of 32.
 
-# 4. Model Evaluation
+### 4. Model Evaluation
 (i) After training, I predicted the output for the test set using model.predict(X_test) and converted the probabilities to 0 or 1.
 
 (ii) Then I used the following metrics to evaluate the model:
@@ -69,7 +69,7 @@ Recall
 
 F1 Score
 
-# 5. Results
+### 5. Results
 (i) The model gave a good accuracy on the test data.
 
 (ii) Confusion Matrix showed that the model was correctly identifying both churned and non-churned customers.
